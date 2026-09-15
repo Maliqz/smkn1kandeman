@@ -5,6 +5,8 @@ $user = "root";
 $password = "";
 $database = "smk_kandeman";
 
+$base_url = "/smkn1kandeman/";
+
 $koneksi = mysqli_connect($host, $user, $password, $database);
 
 if (!$koneksi) {
